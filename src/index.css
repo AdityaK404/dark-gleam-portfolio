@@ -112,4 +112,16 @@
     background: radial-gradient(600px 600px at var(--x,50%) var(--y,50%), hsl(var(--primary) / 0.12), transparent 60%);
     z-index: 0;
   }
+  /* Minimal coding-themed background pattern */
+  .code-bg::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.05; /* very subtle */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'><rect fill='none' width='240' height='240'/><g fill='white' font-family='ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace' font-size='18'><text x='20' y='40'>&lt;/&gt;</text><text x='120' y='40'>{}</text><text x='60' y='120'>;</text><text x='180' y='120'>&amp;amp;&amp;amp;</text><text x='30' y='200'>()</text><text x='140' y='200'>[]</text></g></svg>");
+    background-size: 240px 240px;
+    background-repeat: repeat;
+  }
 }
