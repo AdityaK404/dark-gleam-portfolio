@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute inset-0 hero-animated-bg" aria-hidden />
-      <div className="relative z-10 container mx-auto px-6 py-28 sm:py-36 text-center">
+      <div className="relative z-10 container mx-auto px-6 min-h-screen flex flex-col items-center justify-center text-center">
         <header className="max-w-3xl mx-auto">
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight animate-fade-in">
             Hello, I’m John Doe
