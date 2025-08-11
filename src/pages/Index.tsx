@@ -9,7 +9,7 @@ import Footer from "@/sections/Footer";
 
 const Index = () => {
   return (
-    <div className="relative min-h-screen code-bg">
+    <div className="relative min-h-screen">
       <CursorGlow />
       <header className="sticky top-0 z-20 backdrop-blur-lg bg-background/60 border-b border-border">
         <nav className="container px-6 py-4 flex items-center justify-between">
