@@ -6,6 +6,7 @@ import Experience from "@/sections/Experience";
 import Testimonials from "@/sections/Testimonials";
 import Contact from "@/sections/Contact";
 import Footer from "@/sections/Footer";
+import { SplineSceneBasic } from "@/components/ui/demo";
 
 const Index = () => {
   return (
@@ -26,6 +27,9 @@ const Index = () => {
 
       <main>
         <Hero />
+        <section className="container mx-auto px-6 py-16">
+          <SplineSceneBasic />
+        </section>
         <About />
         <Projects />
         <Experience />
