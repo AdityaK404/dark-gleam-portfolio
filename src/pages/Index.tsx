@@ -27,9 +27,6 @@ const Index = () => {
 
       <main>
         <Hero />
-        <section className="container mx-auto px-6 py-16">
-          <SplineSceneBasic />
-        </section>
         <About />
         <Projects />
         <Experience />
